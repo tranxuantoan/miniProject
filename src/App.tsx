@@ -15,12 +15,12 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='/blog' element={<BlogHome/>}/>
-        <Route path='/category' element={<Category/>}/>
-        <Route path='/product' element={<ProductList1/>}/>
-        <Route path='/login' element={<LoginForm/>}/>
-        <Route path='/customer' element={<Customer/>}/>
+        <Route path='miniProject/' element={<HomePage/>}/>
+        <Route path='miniProject/blog' element={<BlogHome/>}/>
+        <Route path='miniProject/category' element={<Category/>}/>
+        <Route path='miniProject/product' element={<ProductList1/>}/>
+        <Route path='miniProject/login' element={<LoginForm/>}/>
+        <Route path='miniProject/customer' element={<Customer/>}/>
         <Route path='*' element={<NoPage/>}/>
       </Routes>
     </BrowserRouter>
